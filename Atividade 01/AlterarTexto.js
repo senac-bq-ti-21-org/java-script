@@ -4,4 +4,5 @@ titulo[1].textContent = "Texto alterado 2";
 function mostrarAlerta() {
     alert("Mensagem");
 }
-titulo[0].onclick = mostrarAlerta;
+for(var i = 0; i < titulo.length; i++)
+    titulo[i].onclick = mostrarAlerta;
