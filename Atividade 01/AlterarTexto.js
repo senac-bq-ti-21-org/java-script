@@ -5,7 +5,7 @@ function mostrarAlerta() {
     alert("Alerta");
 }
 for(var i = 0; i < titulo.length; i++)
-    titulo[i].onclick = mostrarAlerta;
+    titulo[i].ondblclick = mostrarAlerta;
 function mostrarAlerta2(texto) {
     alert(texto);
 }
